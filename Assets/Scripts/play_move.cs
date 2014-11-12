@@ -6,20 +6,20 @@ public class play_move : MonoBehaviour {
 	public float maxSpeed = 100f;
 	bool facingRight = true;
 
-	//Animator anim;
+	Animator anim;
 
-	// Use this for initialization
+
 	void Start () {
-		//anim = GetComponent<Animator> ();
+		anim = GetComponent<Animator> ();
 	}
 	
-	// Update is called once per frame
+
 	void FixedUpdate () {
 				float movex = Input.GetAxis ("Horizontal");
 				float movey = Input.GetAxis ("Vertical");
 				rigidbody2D.velocity = new Vector2 (movex * maxSpeed, movey * maxSpeed);
 
-		//anim.SetFloat ("Speed", Mathf.Abs (movex));
+		anim.SetFloat ("Speed", Mathf.Abs (movex));
 
 				
 		if (movex > 0 && !facingRight)
