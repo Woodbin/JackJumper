@@ -4,7 +4,7 @@ using System.Collections;
 public class play_move : MonoBehaviour {
 
 	public float maxSpeed = 100f;				// vytvorime maximalni rychlost jakou nase postavicka muze mit
-	bool facingRight = true;					// hodnota pro zjistovani jestli kouka postavicka do prava
+	bool facingRight = false;					// hodnota pro zjistovani jestli kouka postavicka do prava
 
 	Animator anim;								// budem pouzivat hodnotu anim pro praci s animatorem
 
