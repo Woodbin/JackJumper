@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="10" tilewidth="320" tileheight="320">
+ <tileset firstgid="1" name="plosina" tilewidth="320" tileheight="320">
+  <image source="../Sprites/plosina.png" width="960" height="320"/>
+ </tileset>
+ <layer name="Vrstva dlaždic 1" width="20" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBj6gBGImbGIMUExuhwuPYMREPLHYAfI7scXF0x48ED6GwBDuAA1
+  </data>
+ </layer>
+ <objectgroup name="Vrstva objektů 1">
+  <object x="369.697" y="2627.27" width="2796.97" height="60.6061"/>
+  <object x="1324.24" y="1681.82" width="1193.94" height="69.697"/>
+  <object x="3890.91" y="2318.18" width="1515.15" height="66.6667"/>
+  <object x="687.879" y="1027.27" width="551.515" height="106.061"/>
+  <object x="2927.27" y="709.091" width="566.667" height="69.697"/>
+  <object x="4524.24" y="709.091" width="1200" height="69.697"/>
+ </objectgroup>
+</map>
