@@ -5,7 +5,7 @@
  </tileset>
  <layer name="Vrstva dlaždic 1" width="20" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYBj6gBGImbGIMUExuhwuPYMREPLHYAfI7scXF0x48ED6GwBDuAA1
+   eJxjYBj6gBGImbGIMUExuhwuPYMREPIHteygpdlMDITjggkPHsh4AgBIHAA5
   </data>
  </layer>
  <objectgroup name="Vrstva objektů 1">
@@ -15,5 +15,6 @@
   <object x="687.879" y="1027.27" width="551.515" height="106.061"/>
   <object x="2927.27" y="709.091" width="566.667" height="69.697"/>
   <object x="4524.24" y="709.091" width="1200" height="69.697"/>
+  <object x="2930.3" y="1987.88" width="560.606" height="54.5455"/>
  </objectgroup>
 </map>
