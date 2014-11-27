@@ -66,9 +66,9 @@ TextureImporter:
     - name: soul_anim_1
       rect:
         serializedVersion: 2
-        x: 230
+        x: 222
         y: 1
-        width: 219
+        width: 227
         height: 357
       alignment: 0
       pivot: {x: .5, y: .5}
@@ -78,7 +78,7 @@ TextureImporter:
         serializedVersion: 2
         x: 454
         y: 0
-        width: 220
+        width: 221
         height: 355
       alignment: 0
       pivot: {x: .5, y: .5}
@@ -88,7 +88,7 @@ TextureImporter:
         serializedVersion: 2
         x: 680
         y: 0
-        width: 221
+        width: 219
         height: 354
       alignment: 0
       pivot: {x: .5, y: .5}
@@ -96,9 +96,9 @@ TextureImporter:
     - name: soul_anim_4
       rect:
         serializedVersion: 2
-        x: 896
+        x: 899
         y: 0
-        width: 228
+        width: 226
         height: 354
       alignment: 0
       pivot: {x: .5, y: .5}
@@ -106,9 +106,9 @@ TextureImporter:
     - name: soul_anim_5
       rect:
         serializedVersion: 2
-        x: 1131
+        x: 1123
         y: 1
-        width: 219
+        width: 227
         height: 357
       alignment: 0
       pivot: {x: .5, y: .5}
@@ -116,9 +116,9 @@ TextureImporter:
     - name: soul_anim_6
       rect:
         serializedVersion: 2
-        x: 1349
+        x: 1355
         y: 1
-        width: 225
+        width: 219
         height: 359
       alignment: 0
       pivot: {x: .5, y: .5}
@@ -129,16 +129,16 @@ TextureImporter:
         x: 1579
         y: 1
         width: 222
-        height: 360
+        height: 364
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: soul_anim_8
       rect:
         serializedVersion: 2
-        x: 1799
+        x: 1800
         y: 1
-        width: 224
+        width: 223
         height: 361
       alignment: 0
       pivot: {x: .5, y: .5}
@@ -146,9 +146,9 @@ TextureImporter:
     - name: soul_anim_9
       rect:
         serializedVersion: 2
-        x: 2022
+        x: 2029
         y: 1
-        width: 226
+        width: 219
         height: 359
       alignment: 0
       pivot: {x: .5, y: .5}

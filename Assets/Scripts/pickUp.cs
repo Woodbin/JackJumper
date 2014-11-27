@@ -6,7 +6,7 @@ public class pickUp : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D something){
 		if (something.tag == "Player") {
 
-						//Debug.Log ("spirit sebran");			//-->TEST!
+						//Debug.Log ("mince sebrana!");			//-->TEST!
 						gameMaster.currentScore += 1*valueOfCoin;
 						Destroy (gameObject);
 				}
