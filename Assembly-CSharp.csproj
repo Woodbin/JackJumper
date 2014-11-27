@@ -46,13 +46,13 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\cameraMove.cs" />
+     <Compile Include="Assets\Scripts\gameMaster.cs" />
+     <Compile Include="Assets\Scripts\jump.cs" />
+     <Compile Include="Assets\Scripts\pickUp.cs" />
      <Compile Include="Assets\Scripts\play_move.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\SortingLayerExposed.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TileAnimator.cs" />
-     <Compile Include="Assets\cameraMove.cs" />
-     <Compile Include="Assets\gameMaster.cs" />
-     <Compile Include="Assets\jump.cs" />
-     <Compile Include="Assets\pickUp.cs" />
      <None Include="Assets\Tiled2Unity\Prefabs\_ReadMe.txt" />
      <None Include="Assets\Tiled2Unity\Shaders\shaTiledMap.shader" />
      <None Include="Assets\Tiled2Unity\Imported\test_texturepack.tiled2unity.xml" />
