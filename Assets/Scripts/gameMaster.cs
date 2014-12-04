@@ -8,7 +8,7 @@ public class gameMaster : MonoBehaviour {
 	public int positionY=5;
 	void OnGUI () {
 		GUI.Box (new Rect((Screen.width/2)-sizeX/2,positionY,sizeX,sizeY), "Score: "+currentScore);
-
+		GUI.Box (new Rect (0, 0, 100, 100), "životy: ");
 	}
 
 }
