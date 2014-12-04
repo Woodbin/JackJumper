@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Tiled2Unity generated xml data-->
+<!--Do not modify by hand-->
+<!--Last exported: 4. 12. 2014 14:22:35-->
+<Tiled2Unity version="0.9.5.3">
+  <AssignMaterial mesh="mesh_[00]_[00]" material="plosina" sortingLayerName="" sortingOrder="0" />
+  <Prefab name="druhejLevel">
+    <GameObject name="Vrstva_dlaždic_1_00">
+      <GameObject copy="mesh_[00]_[00]" />
+    </GameObject>
+    <GameObject name="Vrstva objektů 1">
+      <GameObject name="RectangleObject" x="80" y="-80">
+        <BoxCollider2D width="1744" height="64" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="88" y="-1032">
+        <BoxCollider2D width="464" height="72" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="776" y="-1680">
+        <BoxCollider2D width="1352" height="80" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="4264" y="-2968">
+        <BoxCollider2D width="1392" height="80" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="5656" y="-3048">
+        <BoxCollider2D width="0" height="0" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="400" y="-1352">
+        <BoxCollider2D width="464" height="80" />
+      </GameObject>
+    </GameObject>
+  </Prefab>
+  <ImportMesh filename="druhejLevel.obj">IyBXYXZlZnJvbnQgT0JKIGZpbGUgYXV0b21hdGljYWxseSBnZW5lcmF0ZWQgYnkgVGlsZWQyVW5pdHkNCg0KIyBWZXJ0aWNlcyAoQ291bnQgPSA0NikNCnYgMCAtMzIwIDANCnYgLTMyMCAtMzIwIDANCnYgLTMyMCAwIDANCnYgMCAwIDANCnYgLTY0MCAtMzIwIDANCnYgLTY0MCAwIDANCnYgLTk2MCAtMzIwIDANCnYgLTk2MCAwIDANCnYgLTEyODAgLTMyMCAwDQp2IC0xMjgwIDAgMA0KdiAtMTYwMCAtMzIwIDANCnYgLTE2MDAgMCAwDQp2IC0xOTIwIC0zMjAgMA0KdiAtMTkyMCAwIDANCnYgMCAtMTI4MCAwDQp2IC0zMjAgLTEyODAgMA0KdiAtMzIwIC05NjAgMA0KdiAwIC05NjAgMA0KdiAtNjQwIC0xMjgwIDANCnYgLTY0MCAtOTYwIDANCnYgLTMyMCAtMTYwMCAwDQp2IC02NDAgLTE2MDAgMA0KdiAtOTYwIC0xNjAwIDANCnYgLTk2MCAtMTI4MCAwDQp2IC02NDAgLTE5MjAgMA0KdiAtOTYwIC0xOTIwIDANCnYgLTEyODAgLTE5MjAgMA0KdiAtMTI4MCAtMTYwMCAwDQp2IC0xNjAwIC0xOTIwIDANCnYgLTE2MDAgLTE2MDAgMA0KdiAtMTkyMCAtMTkyMCAwDQp2IC0xOTIwIC0xNjAwIDANCnYgLTIyNDAgLTE5MjAgMA0KdiAtMjI0MCAtMTYwMCAwDQp2IC00MTYwIC0zMjAwIDANCnYgLTQ0ODAgLTMyMDAgMA0KdiAtNDQ4MCAtMjg4MCAwDQp2IC00MTYwIC0yODgwIDANCnYgLTQ4MDAgLTMyMDAgMA0KdiAtNDgwMCAtMjg4MCAwDQp2IC01MTIwIC0zMjAwIDANCnYgLTUxMjAgLTI4ODAgMA0KdiAtNTQ0MCAtMzIwMCAwDQp2IC01NDQwIC0yODgwIDANCnYgLTU3NjAgLTMyMDAgMA0KdiAtNTc2MCAtMjg4MCAwDQoNCiMgVGV4dHVyZSBDb29yaW5kYXRlcyAoQ291bnQgPSAxMikNCnZ0IDAuMDAwMTIyMDcwMyAwLjAwMDEyMjA3MDMNCnZ0IDAuMzMzMzMzMyAwLjAwMDEyMjA3MDMNCnZ0IDAuMzMzMzMzMyAxDQp2dCAwLjAwMDEyMjA3MDMgMQ0KdnQgMC4zMzM0NTU0IDAuMDAwMTIyMDcwMw0KdnQgMC42NjY2NjY3IDAuMDAwMTIyMDcwMw0KdnQgMC42NjY2NjY3IDENCnZ0IDAuMzMzNDU1NCAxDQp2dCAwLjY2Njc4ODggMC4wMDAxMjIwNzAzDQp2dCAxIDAuMDAwMTIyMDcwMw0KdnQgMSAxDQp2dCAwLjY2Njc4ODggMQ0KDQojIE5vcm1hbA0Kdm4gMCAwIC0xDQoNCiMgR3JvdXBzIChDb3VudCA9IDEpDQpnIG1lc2hfWzAwXV9bMDBdDQpmICAxLzEvMSAgMi8yLzEgIDMvMy8xICA0LzQvMSANCmYgIDIvNS8xICA1LzYvMSAgNi83LzEgIDMvOC8xIA0KZiAgNS81LzEgIDcvNi8xICA4LzcvMSAgNi84LzEgDQpmICA3LzUvMSAgOS82LzEgIDEwLzcvMSAgOC84LzEgDQpmICA5LzUvMSAgMTEvNi8xICAxMi83LzEgIDEwLzgvMSANCmYgIDExLzkvMSAgMTMvMTAvMSAgMTQvMTEvMSAgMTIvMTIvMSANCmYgIDE1LzEvMSAgMTYvMi8xICAxNy8zLzEgIDE4LzQvMSANCmYgIDE2LzkvMSAgMTkvMTAvMSAgMjAvMTEvMSAgMTcvMTIvMSANCmYgIDIxLzEvMSAgMjIvMi8xICAxOS8zLzEgIDE2LzQvMSANCmYgIDIyLzkvMSAgMjMvMTAvMSAgMjQvMTEvMSAgMTkvMTIvMSANCmYgIDI1LzEvMSAgMjYvMi8xICAyMy8zLzEgIDIyLzQvMSANCmYgIDI2LzUvMSAgMjcvNi8xICAyOC83LzEgIDIzLzgvMSANCmYgIDI3LzUvMSAgMjkvNi8xICAzMC83LzEgIDI4LzgvMSANCmYgIDI5LzUvMSAgMzEvNi8xICAzMi83LzEgIDMwLzgvMSANCmYgIDMxLzkvMSAgMzMvMTAvMSAgMzQvMTEvMSAgMzIvMTIvMSANCmYgIDM1LzEvMSAgMzYvMi8xICAzNy8zLzEgIDM4LzQvMSANCmYgIDM2LzUvMSAgMzkvNi8xICA0MC83LzEgIDM3LzgvMSANCmYgIDM5LzUvMSAgNDEvNi8xICA0Mi83LzEgIDQwLzgvMSANCmYgIDQxLzUvMSAgNDMvNi8xICA0NC83LzEgIDQyLzgvMSANCmYgIDQzLzkvMSAgNDUvMTAvMSAgNDYvMTEvMSAgNDQvMTIvMSANCg==</ImportMesh>
+  <InternalTexture assetPath="Assets\Sprites\plosina.png" />
+</Tiled2Unity>
