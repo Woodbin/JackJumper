@@ -14,13 +14,13 @@ public class door : MonoBehaviour {
 
 				}
 		}
-
 	void OnTriggerEnter2D(Collider2D something){
-
+		
 		if(anim.GetBool ("open")){	
 			if(something.tag == "Player"){
 				Application.LoadLevel(nextLevel);
 			}
 		}
 	}
+	
 }
