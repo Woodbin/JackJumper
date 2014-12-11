@@ -13,6 +13,7 @@ public class gameMaster : MonoBehaviour {
 	}
 
 
+
 	void Start(){
 		currentScore = 0;
 	}
