@@ -18,4 +18,9 @@ public class gameMaster : MonoBehaviour {
 		currentScore = 0;
 	}
 
+	void Update(){
+		if (currentHealth <= 0) {
+			Application.LoadLevel("gameover");			
+		}
+	}
 }
