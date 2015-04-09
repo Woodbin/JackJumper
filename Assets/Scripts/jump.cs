@@ -18,7 +18,7 @@ public class jump : MonoBehaviour {
 	void Update(){
 		if (grounded && (Input.GetKeyDown (KeyCode.Space))) {									// pokud jsme na zemi a zmáčkneme mezerník
 			anim.SetBool("Ground",false);													// v animatoru se Ground nastavi na false
-			rigidbody2D.AddForce(new Vector2(0,jumpForce));									// "nakopni postavu"(skoč) směrem  nahoru (y+) dle jumpForce
+			GetComponent<Rigidbody2D>().AddForce(new Vector2(0,jumpForce));									// "nakopni postavu"(skoč) směrem  nahoru (y+) dle jumpForce
 		}
 		
 	}

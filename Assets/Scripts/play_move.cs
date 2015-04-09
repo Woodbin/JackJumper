@@ -17,7 +17,7 @@ public class play_move : MonoBehaviour {
 
 		float movex = Input.GetAxis ("Horizontal");											// zjisti jestli hrac uziva klavesy/tlacitka pro horizontalni pohyb
 																							// a zjisteny pohyb uloz do promene movex (+ je pohyb vpravo - vlevo)
-		rigidbody2D.velocity = new Vector2 (movex * maxSpeed,  rigidbody2D.velocity.y);		// s vyuzitim komponenty rigidbody2d pohni s postavickou dle stisknute
+		GetComponent<Rigidbody2D>().velocity = new Vector2 (movex * maxSpeed,  GetComponent<Rigidbody2D>().velocity.y);		// s vyuzitim komponenty rigidbody2d pohni s postavickou dle stisknute
 																							// klavesy (pohyb po ose X) ... pohyb po ose Y je ovlivnen akorat gravitaci
 		anim.SetFloat ("Speed", Mathf.Abs (movex));											// v animatoru nastavime promenou Speed na aktualni rychlost
 																							// v animatoru pak dle rychlosti prechazime z behu do idle stavu
